@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+
+      <!-- Insert CSS PAGE HERE --> 
+
+      <title>Contact Us</title>
+      
+    </head>
+    
+    <body>
+  
+      <nav>
+        <ul>
+          <li><a href="./pages/page2.html">Home Page</a></li>
+          <li><a href="/pages/page3.html" >Vodka Recipes </a></li>
+          <li><a href="/pages/page4.html" >Tequilla Recipes </a></li>
+          <li><a href="/pages/page4.html" >Rum Recipes </a></li>
+          <li><a href="/pages/page5.html" >Submit</a></li>
+        </ul>
+      </nav>
+    
+   
+      <main>
+        <h1>GET IN TOUCH </h1>
+        <h2>We would love to hear for you! <h2> 
+        <div>
+          <p>
+            For general enquires please contact general@cocktailsncode.com  <br>
+            For Media enquires please contact pr@cocktailsncode.com <br>
+
+            Alternatively call us on 020 8867 765 <br>
+
+            Feel Free to pop in and come say Hi!
+          </p>
+
+    
+          <h3> Find us here </h3>
+          <div id="map"> </div>
+          <script>
+            
+            function initMap() {
+             
+              var uluru = {lat: -25.344, lng: 131.036};
+             
+              var map = new google.maps.Map(
+                  document.getElementById('map'), {zoom: 4, center: uluru});
+              
+              var marker = new google.maps.Marker({position: uluru, map: map});
+            }
+         </script>
+    
+    <script 
+    async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCl8NdMY37QHoLDmsX-lV0LKH38oIDKRco&callback=initMap">
+    </script>
+    
+        </div>
+
+        <h3> Be sure to follow our socials </h3>
+
+        <p> 
+            Twitter @cocktailsncode <br>
+            Instagram @cocktailsncode
+        </p>
+    
+        <!-- SnapWidget -->
+    <script src="https://snapwidget.com/js/snapwidget.js"></script>
+    <iframe src="https://snapwidget.com/embed/796841" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+      
+    </main>
+    
+      <!-- Footer -->
+      <footer>
+        <p>Made with &hearts; by Becca, Sophie, Ines & Gemma &copy; Code First 2020</p>
+      </footer>
+    
+    </body>
+    
+    </html>
